@@ -1,0 +1,148 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: "Roboto" ,sans-serif;
+    font-size: 62.5%;
+}
+:root{
+    --red-color: #AF1D0D;
+    --yellow-color: #F19E1F;
+}
+.container{
+    max-width: 1140px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 0 auto;
+}
+
+/* -------------HEADER -----------------*/
+/* header top */
+.header-top{
+    background: #1565bf;
+    padding: 10px 0;
+}
+.header-top__list{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header-top__left ul{
+    display: flex;
+    align-items: center;
+}
+.header-top__left ul li{
+    padding: 0 10px;
+}
+.header-top__left ul li a{
+    font-size: 1rem;
+    color: #fff;
+    text-decoration: none;
+}
+.header-top__left ul li a i{
+    padding-right: 5px;
+}
+.header-top__right ul{
+    display: flex;
+    align-items: center;
+}
+.header-top__right ul li{
+    padding: 0 10px;
+}
+.header-top__right ul li a{
+    font-size: 1rem;
+    color: #fff;
+    text-decoration: none;
+}
+/* end header top */
+
+/* header bot */
+.header-bot{
+    background: #0d59af;
+    padding: 10px 0;
+}
+.header-bot__nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.nav-logo h1 a{
+    font-size: 2.5rem;
+    color: #fff;
+    text-decoration: none;
+}
+.nav-logo h1 a p{
+    font-size: 0.8rem;
+    letter-spacing: 5.5px;
+    line-height: 0;
+    text-transform: uppercase;
+    padding-left: 2px;
+}
+.nav-menu{
+    margin-right: 400px;
+}
+.nav-menu__list{
+    display: flex;
+    align-items: center;
+}
+.nav-menu__list-item{
+    padding: 0 10px;
+}
+.nav-menu__list-item a{
+    font-size: 1rem;
+    text-decoration: none;
+    color: #fff;
+}
+.nav-cart__list{
+
+}
+.nav-cart__list-item{
+    text-align: right;
+    padding: 3px 0;
+}
+.nav-cart__list-item a{
+    font-size: 0.8rem;
+    text-decoration: none;
+    color: #fff;
+}
+.nav-cart__list-item:nth-child(1){
+    text-align: center;
+}
+/* end header bot */
+/* BANNER */
+.banner{
+    position: relative;
+}
+.banner-slider{
+
+}
+.slider-img{
+    width: 100%;
+}
+.banner-btn-control{
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.btn{
+    width: 50px;
+    height: 50px;
+    border: 1px dashed #fff;
+    border-radius: 100%;
+    background: #1565c0;
+}
+.btn i{
+    font-size: 1.2rem;
+    color: #fff;
+}
+.btn-prev{
+    margin-left: 30px;
+}
+.btn-next{
+    margin-right: 30px;
+}
+/* END BANNER */
