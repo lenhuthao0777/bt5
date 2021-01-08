@@ -146,3 +146,121 @@ body{
     margin-right: 30px;
 }
 /* END BANNER */
+/* CONTENT BANNER */
+.content{
+    margin: 60px 0;
+}
+.content-banner{
+    display: flex;
+}
+/* .content-banner img{
+    width: 100%;
+} */
+.content-left{
+    width: 50%;
+    margin-right: 15px;
+    position: relative;
+    overflow: hidden;
+}
+.content-left img{
+    width: 100%;  
+    transition: all 0.5s; 
+}
+/* .content-left__text{
+} */
+.content-left__text h1{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background: #1565bf;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 70px;
+    left: 230px;
+    font-size: 1.5rem;
+    color: #fff;
+}
+.content-left__text2 h1{
+    position: absolute;
+    top: 250px;
+    left: 200px;
+    background: #1565bf;
+    padding: 15px;
+    font-size: 1.5rem;
+    color: #fff;
+}
+.content-right{
+    width: 50%;
+    margin-left: 15px;
+}
+/* .content-right__top{
+    
+    p
+} */
+.content-right__bot{
+    margin-top: 15px;
+}
+.content-right__top{
+    margin-bottom: 29px;
+    position: relative;
+    overflow: hidden;
+}
+.content-right__top img{
+    height: 295px;
+    transition: all 0.5s;
+}
+.content-right__top h1{
+    position: absolute;
+    top: 120px;
+    left: 150px;
+    background: #1565bf;
+    padding: 15px;
+    font-size: 1.5rem;
+    color: #fff;
+}
+.content-right__bot{
+    display: flex;
+    align-items: center;
+}
+.content-right__bot-left{
+    position: relative;
+    padding-right: 10px;
+}
+.content-right__bot-right{
+    position: relative;
+    padding-left: 10px;
+}
+.content-right__bot-left img{
+    height: 259px;
+}
+.content-right__bot-left h1{
+    position: absolute;
+    top: 85px;
+    left: 70px;
+    background: #1565bf;
+    padding: 15px;
+    font-size: 1.5rem;
+    color: #fff;
+}
+.content-right__bot-right img{
+    height: 259px;
+}
+.content-right__bot-right h1{
+    position: absolute;
+    top: 85px;
+    left: 70px;
+    background: #1565bf;
+    padding: 15px;
+    font-size: 1.5rem;
+    color: #fff;
+}
+.content-left img:hover{
+    transform: scale3d(1.1, 1.1, 1);
+}
+.content-right__top img:hover{
+    transform: scale3d(1.1, 1.1, 1);
+}
+/* END CONTENT BANNER */
